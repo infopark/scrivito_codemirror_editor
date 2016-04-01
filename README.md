@@ -38,12 +38,12 @@ gem 'scrivito_codemirror_editor'
 scrivito_tag :div, :my_widget, :my_html_attribute, {}, editor: :codemirror
 ```
 
-### Enable CodeMirror for all HTML attributes on detail views
+### Enable CodeMirror for all HTML attributes on a details view
 
 ```
 scrivito.on "load", ->
   scrivito.select_editor (element, editing) ->
-    if $(element).is(".scrivito_dialog [data-scrivito-field-type=html]")
+    if $(element).is(".my_details_view [data-scrivito-field-type=html]")
       editing.use("codemirror")
 ```
 
