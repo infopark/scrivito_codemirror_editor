@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.author = 'Scrivito'
   s.description = 'Make CodeMirror available as a Scrivito editor'
   s.email = 'info@scrivito.com'
-  s.files = Dir['READ*', 'LIC*', 'app/**/*', 'lib/**/*']
+  s.files = Dir['READ*', 'LIC*', 'app/**/*', 'lib/**/*', 'vendor/**/*']
   s.homepage = 'https://scrivito.com'
   s.license = 'LGPL-3.0'
   s.name = 'scrivito_codemirror_editor'
@@ -11,6 +11,5 @@ Gem::Specification.new do |s|
   s.summary = 'CodeMirror for Scrivito'
   s.version = '1.0.0'
 
-  s.add_runtime_dependency 'codemirror-rails', '~> 5.0'
   s.add_runtime_dependency 'scrivito', '~> 1.0'
 end
