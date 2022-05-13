@@ -13,6 +13,4 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'codemirror-rails', '~> 5.0'
   s.add_runtime_dependency 'scrivito', '~> 1.0'
-  s.add_runtime_dependency 'coffee-rails'
-  s.add_runtime_dependency 'coffee-script-source', '>= 1.9.1'
 end
