@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.email = 'info@scrivito.com'
   s.files = Dir['READ*', 'LIC*', 'app/**/*', 'lib/**/*', 'vendor/**/*']
   s.homepage = 'https://scrivito.com'
-  s.license = 'LGPL-3.0'
+  s.license = 'MIT'
   s.name = 'scrivito_codemirror_editor'
   s.platform = Gem::Platform::RUBY
   s.required_ruby_version = '>= 1.9.3'
